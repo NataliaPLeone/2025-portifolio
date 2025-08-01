@@ -4,17 +4,13 @@ import { ModeToggle } from './mode-toggle';
 const AboutMe = () => {
 	return (
         <>
-		<div className='absolute top-0'>
+		<div className='absolute top-0 hidden md:block '>
 						<ModeToggle />
 					</div>
-		<div className="w-full py-4 md:py-0 bg-white dark:bg-neutral-900 px-6 pt-16 sm:pt-0"> 
+		<div className="w-full py-4 mt-6 md:py-0 bg-white dark:bg-neutral-900 px-6 pt-16 sm:pt-0"> 
 			
 			<div className="space-y-8 text-center">
-				<div className="relative w-24 md:w-24 h-24 md:h-24 mx-auto">
-					<div className="relative w-full h-full  overflow-hidden ring-2 ring-neutral-200 dark:ring-neutral-700">
-						
-					</div>
-				</div>
+				
 
 				<div className="space-y-3">
 					<h1 className="text-2xl md:text-3xl font-bold text-neutral-900 dark:text-white">Natália Prata Leone</h1>
